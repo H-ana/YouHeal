@@ -1,0 +1,39 @@
+.footer {
+    background-color: black;
+    align-items: center;
+    color: white;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 420px;
+    justify-content: space-evenly;
+}
+
+.list {
+    list-style: none;
+    line-height: 35px;
+}
+
+.list h3 {
+    font-size: 25px;
+}
+
+.social {
+    font-size: 35px;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact {
+    margin-top: -40px;
+}
+
+hr{
+    width: 300px;
+}
+
+.About-us{
+    width: 400px;
+}

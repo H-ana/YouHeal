@@ -5,7 +5,7 @@ function Navbar() {
 return (
 <div className='navbar'>
     <ul>
-        <li className='logo'>YouHeal</li>
+        <li ><h3 className='logo'>YouHeal</h3></li>
         <li>Home</li>
         <li>Services</li>
         <li>About Us</li>

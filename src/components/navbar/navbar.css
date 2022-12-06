@@ -7,10 +7,9 @@
     background-color: white;
     position: sticky;
     top: 0px;
-    width: 100vw;
-    margin-top: 20px;
+    width: 100%;
+    padding-top: 20px;
     height: auto;
-    z-index: 1000;
 }
 
 .navbar ul {
@@ -20,25 +19,22 @@
     display: flex;
     background-color: white;
     width: auto;
-    position: relative;
-
 }
 
 .navbar li {
     cursor: pointer;
     flex-wrap: nowrap;
     float: right;
-    padding-right: 0.3vw;
     color: black;
     font-size: 1rem;
     font-family: 'Iceberg', cursive;
-    margin-left: 5%;
+    margin-left: 80px;
 
 }
 
-.logo {
+.navbar .logo {
     font-weight: bold;
-    padding-right: 15rem;
+    margin-top: -6px;
 }
 
 .navbar a {
