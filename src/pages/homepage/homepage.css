@@ -1,7 +1,7 @@
 .home{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
 }
 .hometop{
@@ -17,6 +17,7 @@
     color: white;
     margin-top: 80px;
     margin-left: 50px;
+    font-size: 33px;
 }
 
 .homebox{
@@ -29,15 +30,49 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-around;
+    margin-top: 100px;
 }
 
 .bottomright{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 600px;
 }
 
 .bottomright h4{
     color: #6A6A6A;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.homeboxitem h3{
+    color: #00ab9f;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-box-shadow: -8px 7px 16px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 7px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -8px 7px 16px 0px rgba(0, 0, 0, 0.75);
+    width: 20px;
+    height: 20px;
+}
+
+.homeboxitem{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.bottomright h2{
+    font-size: 48px;
+    width: 530px;
+    text-align: center;
+}
+.bottomright .decr{
+    text-align: center;
+}
+
+.homeboxitem h4{
+    margin-top: 5px;
 }
