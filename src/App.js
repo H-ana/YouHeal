@@ -6,6 +6,7 @@ import OurServices from './pages/ourservices/ourservices';
 import AboutUs from './pages/aboutus/aboutus';
 import Dept from './pages/departments/departments';
 import Contactus from './pages/contactus/contactus';
+import BookApt from './pages/bookappnmt/bookappnmt';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='/aboutus' element={<><Navbar/><AboutUs/><Footer/></>}/>
           <Route path='/departments' element={<><Navbar/><Dept/><Footer/></>}/>
           <Route path='/contactus' element={<><Navbar/><Contactus/><Footer/></>}/>
+          <Route path='/bookappointment' element={<><Navbar/><BookApt/></>}/>
         </Routes>
     </Router>
   );
