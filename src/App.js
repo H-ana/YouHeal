@@ -9,6 +9,7 @@ import Contactus from './pages/contactus/contactus';
 import BookApt from './pages/bookappnmt/bookappnmt';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 import Gallery from './pages/gallery/Gallery';
+import Anaesthesia from './pages/anaesthesia/anaesthesia';
 function App() {
   return (
     <Router>
@@ -20,6 +21,7 @@ function App() {
           <Route path='/contactus' element={<><Navbar/><Contactus/><Footer/></>}/>
           <Route path='/bookappointment' element={<><Navbar/><BookApt/></>}/>
           <Route path='/gallery' element={<><Navbar/><Gallery/><Footer/></>}/>
+          <Route path='/departments/anaesthesia' element={<><Navbar/><Anaesthesia/><Footer/></>}/>
         </Routes>
     </Router>
   );
