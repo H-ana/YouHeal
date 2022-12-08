@@ -2,3 +2,12 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+input {
+    border: none;
+    /* Removes the default border */
+}
+
+input:focus {
+    outline: none
+        /* Removes the border when the input is clicked */
+}
