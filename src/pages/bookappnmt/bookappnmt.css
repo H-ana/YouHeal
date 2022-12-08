@@ -1,0 +1,29 @@
+.book-button{
+    width: 640px;
+    height: 40px;
+    cursor: pointer;
+        padding: 5px;
+        background-color: #00ab9f;
+        color: white;
+        border: none;
+        border-radius: 8px;
+}
+.book-inputs{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../images/bookappt.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    margin-left: 0cm;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    gap: 20px;
+    height: 100vh;
+}
+.book-inputs input{
+    width: 600px;
+    height: 40px;
+    padding-left: 30px;
+}
