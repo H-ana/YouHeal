@@ -8,7 +8,7 @@ import Dept from './pages/departments/departments';
 import Contactus from './pages/contactus/contactus';
 import BookApt from './pages/bookappnmt/bookappnmt';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
-import Gallery from './pages/gallery/Gallery';
+import Gallery from './pages/gallery/gallery';
 import Anaesthesia from './pages/anaesthesia/anaesthesia';
 function App() {
   return (
