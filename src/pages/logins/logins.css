@@ -1,0 +1,18 @@
+.logins-inputs {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../images/login-bg.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+    margin-left: 0cm;
+    gap: 20px;
+    height: 100vh;
+}
+.back-button {
+    color: white;
+    position: relative;
+    top: 20px;
+    left: -700px;
+}

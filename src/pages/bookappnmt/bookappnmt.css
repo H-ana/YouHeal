@@ -17,8 +17,6 @@
     width: 100%;
     align-items: center;
     margin-left: 0cm;
-    padding-bottom: 40px;
-    padding-top: 40px;
     gap: 20px;
     height: 100vh;
 }
@@ -31,6 +29,6 @@
 .back-button{
     color: white;
     position: relative;
-    top: -20px;
-    left: -600px;
+    top: 20px;
+    left: -700px;
 }
