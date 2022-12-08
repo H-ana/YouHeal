@@ -1,34 +1,18 @@
 import React from 'react';
-import Book from '../../images/bookappt.png';
 import './bookappnmt.css';
 
 function BookApt(){
     return(
-        <div className='bapt'>
-        <img src={Book}/>
-        <div className='bapt1'>
-<h1>Book Appointment</h1>
- <div className='contact-inputs'>
-        <label>
-            Enter Full Name
-            <input type="text"/>
-        </label>
-        <label>
-            Mobile Number
-            <input type="text"/>
-        </label>
-        <label>
-            Your Email
-            <input type="text"/>
-        </label>
-        <label>
-            Your Message
-            <input type="text" className='message'/>
-        </label>
-        <center><button className='send-button'>Send</button></center>
+ <div className='book-inputs'>
+    <h1>Book Appointment</h1>
+        <input type='text' placeholder=' Enter Full Name'></input>
+        <input type='text' placeholder=' Enter Mobile Number'></input>
+        <input type='text' placeholder=' Enter Email Address'></input>
+        <input type='text' placeholder=' Enter Appointment Date'></input>
+        <input type='text' placeholder=' Enter Address Details'></input>
+        <center><button className='book-button'>Book Appointment</button></center>
     </div>
-        </div>
-        </div>
+        
     );
 }
 export default BookApt;
