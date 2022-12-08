@@ -1,10 +1,11 @@
 import React from 'react';
 import './bookappnmt.css';
-import {IoArrowBackCircleOutline} from 'react-icons/io';
+import {BsFillArrowLeftCircleFill} from 'react-icons/bs';
 
 function BookApt(){
     return(
  <div className='book-inputs'>
+    <h1 className='back-button'><BsFillArrowLeftCircleFill/></h1>
     <h1>Book Appointment</h1>
         <input type='text' placeholder=' Enter Full Name'></input>
         <input type='text' placeholder=' Enter Mobile Number'></input>

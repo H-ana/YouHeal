@@ -27,3 +27,10 @@
     height: 40px;
     padding-left: 30px;
 }
+
+.back-button{
+    color: white;
+    position: relative;
+    top: -20px;
+    left: -600px;
+}
