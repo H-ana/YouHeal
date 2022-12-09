@@ -11,6 +11,7 @@ import {BrowserRouter as Router, Route,Routes} from 'react-router-dom';
 import Gallery from './pages/gallery/gallery';
 import Logins from './pages/logins/logins';
 import Anaesthesia from './pages/anaesthesia/anaesthesia';
+import Dikshitha from './pages/dikshitha/dikshitha';
 function App() {
   return (
     <Router>
@@ -24,7 +25,7 @@ function App() {
           <Route path='/logins' element={<Logins/>}/>
           <Route path='/gallery' element={<><Navbar/><Gallery/><Footer/></>}/>
           <Route path='/departments/anaesthesia' element={<><Navbar/><Anaesthesia/><Footer/></>}/>
-          <Route path='/departments/anaesthesia' element={<><Navbar/><Anaesthesia/><Footer/></>}/>
+          <Route path='/departments/anaesthesia/dikshitha' element={<><Navbar/><Dikshitha/></>}/>
         </Routes>
     </Router>
   );

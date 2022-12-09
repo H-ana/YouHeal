@@ -1,6 +1,7 @@
 import React from 'react';
 import Ana from '../../images/anaesthesia.png';
 import Doc from '../../images/doctor.png';
+import { Link } from 'react-router-dom';
 import './anaesthesia.css';
 function Anas(){
     return(<div className='an2'>
@@ -12,7 +13,7 @@ function Anas(){
             <img className='Docimg'src={Doc} />
             <h4>Dr Dikshitha Chetty</h4>
             <h5>Anaesthesia(Specialist) <br/>YouHeal Hospital</h5>
-            <center><button className='view-button'>View full profile</button></center>
+            <Link to='/departments/anaesthesia/dikshitha'><center><button className='view-button'>View full profile</button></center></Link>
             </div>
             </div>
             
