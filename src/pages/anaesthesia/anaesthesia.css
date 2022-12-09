@@ -37,8 +37,9 @@ margin-left: 35px;
     width: 250px;
 }
 .view-button{
-    padding: 5px;
+    padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
     background-color: white;
     border:1px solid #00AB9F;
 }
