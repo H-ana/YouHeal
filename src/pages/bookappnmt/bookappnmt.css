@@ -26,6 +26,8 @@
     padding-left: 30px;
 }
 
-.back-button{
+.goback{
     color: white;
+    margin-top: 50px;
+    margin-left: -700px;
 }

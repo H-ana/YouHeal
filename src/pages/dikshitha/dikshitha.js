@@ -29,10 +29,10 @@ function Diksh(){
                         <li><h3>6 years of experience as a General Practitioner</h3></li>
                         <li><h3>7 months of experience (Post M.D) as a Specialist in Anaesthesia</h3></li>
                         </ul>
-                        
+            <Link to='/bookappointment'><button className='BookAptButton'>Book an Appointment</button></Link>
+                    
                 </div>
             </div>
-            <Link to='/bookappointment'><li><button className='BookAptButton'>Book an Appointment</button></li></Link>
         </div>
         
     );
