@@ -5,7 +5,10 @@
     justify-content: center;
     align-items: center;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .Dept2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

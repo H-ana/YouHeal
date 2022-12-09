@@ -28,7 +28,5 @@
 
 .back-button{
     color: white;
-    position: relative;
-    top: 20px;
-    left: -700px;
+    margin-top: 150px;
 }

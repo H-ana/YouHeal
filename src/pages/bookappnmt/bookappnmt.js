@@ -1,11 +1,11 @@
 import React from 'react';
 import './bookappnmt.css';
 import {BsFillArrowLeftCircleFill} from 'react-icons/bs';
-
+import { Link } from 'react-router-dom';
 function BookApt(){
     return(
  <div className='book-inputs'>
-    <h1 className='back-button'><BsFillArrowLeftCircleFill/></h1>
+    <Link to='/departments/anaesthesia'><h1 className='back-button'><BsFillArrowLeftCircleFill/></h1></Link>
     <h1>Book Appointment</h1>
         <input type='text' placeholder=' Enter Full Name'></input>
         <input type='text' placeholder=' Enter Mobile Number'></input>
